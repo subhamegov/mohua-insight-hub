@@ -12,3 +12,4 @@
 ## Data identity rules
 
 - Identify local bodies by Local Government Directory (`lgd_code`), never by ULB name: source government extracts disagree on state for 64 LGD codes and produce zero exact matches when joining ULB lists by name alone.
+- Classify every city dataset by `provenance` (`"curated" | "government_records" | "synthetic_prototype"`) and gate Jalandhar-only curated features with `isCurated(dataset)` rather than `!dataset.synthetic`, so government-extract cities never inherit Jalandhar's curated layers or groupings.

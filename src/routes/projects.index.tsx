@@ -28,6 +28,7 @@ import {
   isDelayed,
   projectYear,
 } from "@/data/selectors";
+import { isCurated } from "@/data/cities/datasets";
 import { useCity } from "@/lib/cityContext";
 import type { Project } from "@/data/types";
 import { CITY_SYSTEMS, EVIDENCE_QUALITIES, PROJECT_STATUSES } from "@/data/types";
@@ -70,9 +71,9 @@ function ProjectsPage() {
   const { sector, scheme, agency } = Route.useSearch();
   const { city, dataset } = useCity();
   const projects = dataset.projects;
-  // The geographic scope groups are Jalandhar reference work. Cities served by
-  // the four-city dataset carry their own locality scope instead.
-  const scopeGroupsApply = !dataset.synthetic;
+  // The geographic scope groups are Jalandhar hand-curated reference work and
+  // do not apply to other cities.
+  const scopeGroupsApply = isCurated(dataset);
 
   // Filters persist when moving between the register and the map.
   useEffect(() => {

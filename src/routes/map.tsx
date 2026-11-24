@@ -25,6 +25,7 @@ import {
   type MapLayer,
 } from "@/data/mapLayers";
 import { fetchLayer, type OsmFeature } from "@/lib/overpass";
+import { isCurated } from "@/data/cities/datasets";
 import { useCity } from "@/lib/cityContext";
 import { crore, dateText, labelise, percent, text } from "@/lib/format";
 import type { Project, ProjectStatus } from "@/data/types";
@@ -125,7 +126,7 @@ type Selection =
 function CityMap() {
   const { city, dataset } = useCity();
   // Jalandhar's hand-curated priority locations do not apply to other cities.
-  const showPriorityLocations = !dataset.synthetic;
+  const showPriorityLocations = isCurated(dataset);
   const [search, setSearch] = useState("");
   const [activeLayers, setActiveLayers] = useState<string[]>(
     MAP_LAYERS.filter((l) => l.defaultOn).map((l) => l.id),
