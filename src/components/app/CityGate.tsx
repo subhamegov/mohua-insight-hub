@@ -2,6 +2,7 @@ import { Link, useRouterState } from "@tanstack/react-router";
 import { useCity } from "@/lib/cityContext";
 import { FourCityOverview } from "@/components/app/FourCityOverview";
 import { Unavailable } from "@/components/app/Unavailable";
+import { agraGeographySummary } from "@/data/agra/referenceGeography";
 import type { ReactNode } from "react";
 
 /**
@@ -34,6 +35,11 @@ export function CityGate({ children }: { children: ReactNode }) {
   // Explicit All Cities context: city pages do not silently fall back to one
   // city's records, and no city's figures are added together.
   if (portfolio) return <PortfolioContext />;
+
+  // Agra's Master Plan 2031 reference geography is loaded ahead of project records.
+  if (city.city_id === "CITY-AGRA" && pathname === "/localities") {
+    return <>{children}</>;
+  }
 
   if (dataset.projects.length === 0) return <NoRecords />;
 
@@ -100,6 +106,7 @@ function NotBuiltForCity({ page, cityName }: { page: string; cityName: string })
 
 function NoRecords() {
   const { city } = useCity();
+  const agraGeo = city.city_id === "CITY-AGRA" ? agraGeographySummary() : null;
   return (
     <section className="rounded-sm border border-border bg-card p-5 shadow-sm">
       <p className="field-label">{city.city_id}</p>
@@ -122,9 +129,23 @@ function NoRecords() {
         </div>
         <div>
           <dt className="field-label">Records loaded</dt>
-          <dd className="num text-sm">Not available</dd>
+          <dd className="num text-sm">
+            {agraGeo
+              ? `${agraGeo.total} reference geography features (geometry pending)`
+              : "Not available"}
+          </dd>
         </div>
       </dl>
+      {agraGeo ? (
+        <div className="mt-4">
+          <Link
+            to="/localities"
+            className="inline-block rounded-sm border border-input bg-card px-3 py-1.5 text-sm hover:bg-accent"
+          >
+            Open Agra reference geography ({agraGeo.total} features)
+          </Link>
+        </div>
+      ) : null}
     </section>
   );
 }

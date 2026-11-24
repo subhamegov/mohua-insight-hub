@@ -4,6 +4,7 @@ import { lazy } from "react";
 import { PageHeader, Panel } from "@/components/app/Primitives";
 import { Breadcrumbs } from "@/components/app/Breadcrumbs";
 import { PropertyShowcaseEntry } from "@/components/app/PropertyShowcaseEntry";
+import { AgraReferenceGeography } from "@/components/app/AgraReferenceGeography";
 import { ClientOnly } from "@/components/map/ClientOnly";
 import type { MapPoint } from "@/components/map/PointMap";
 import { fourCityBundle, localityRecords } from "@/data/four-city/dataset";
@@ -35,6 +36,14 @@ export const Route = createFileRoute("/localities/")({
 });
 
 function LocalitiesIndex() {
+  const { city } = useCity();
+  if (city.city_id === "CITY-AGRA") {
+    return <AgraReferenceGeography />;
+  }
+  return <FourCityLocalities />;
+}
+
+function FourCityLocalities() {
   const { city } = useCity();
   const { localities, localityId, setLocalityId } = useGeo();
   const [query, setQuery] = useState("");

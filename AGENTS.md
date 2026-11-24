@@ -14,3 +14,4 @@
 - Identify local bodies by Local Government Directory (`lgd_code`), never by ULB name: source government extracts disagree on state for 64 LGD codes and produce zero exact matches when joining ULB lists by name alone.
 - Classify every city dataset by `provenance` (`"curated" | "government_records" | "synthetic_prototype"`) and gate Jalandhar-only curated features with `isCurated(dataset)` rather than `!dataset.synthetic`, so government-extract cities never inherit Jalandhar's curated layers or groupings.
 - Keep Agra's real-extract source registry in `src/data/agra/sourceRegistry.ts` separate from the four-city synthetic registry, with `url: null` whenever no verified public URL exists.
+- Store Agra's reference geography in `src/data/agra/` with `geometry: null`, collection-level `geometry_pending`, and per-feature `crs` until source shapefile polygons are converted; never assume a single collection CRS or invent centroid coordinates.

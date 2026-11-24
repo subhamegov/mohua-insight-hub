@@ -1,0 +1,4065 @@
+{
+  "type": "FeatureCollection",
+  "city_id": "CITY-AGRA",
+  "source_id": "SRC-AGRA-MASTERPLAN-2031",
+  "accessed_date": "2026-11-24",
+  "record_type": "VERIFIED",
+  "geometry_pending": true,
+  "geometry_note": "Shapefile attribute tables only: polygon geometry exists in the Agra Master Plan 2031 source package but has not been converted. Every feature carries geometry: null; no centroid, bounding-box midpoint, or other invented coordinate has been placed.",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-MP-BOUNDARY-1",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-MP-BOUNDARY-1",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-other-layers.tsv",
+        "source_layer": "Master_Plan_Boundary_Updated",
+        "source_feature_id": "1",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "master_plan_boundary",
+        "name": "Master Plan Boundary (Updated)",
+        "alternate_name": null,
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "Id": "0",
+          "Area": "675.674077544627",
+          "Name": "Gopau",
+          "are": "6.12353080803e+04"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-MUNI-BOUNDARY-1",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-MUNI-BOUNDARY-1",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-other-layers.tsv",
+        "source_layer": "Municipal_Boundary",
+        "source_feature_id": "1",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "municipal_boundary",
+        "name": "Municipal Boundary",
+        "alternate_name": null,
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "Shape_Leng": "6.42364366888e+03",
+          "Shape_Area": "1.45290659531e+04",
+          "Ward_No": "15",
+          "Text": "15"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-001",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-001",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "1",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": null,
+        "alternate_name": null,
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "",
+          "Name_1": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-002",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-002",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "2",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Gamri",
+        "alternate_name": "Gamri",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Gamri",
+          "Name_1": "Gamri"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-003",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-003",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "3",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Digner",
+        "alternate_name": "Digner",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Digner",
+          "Name_1": "Digner"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-004",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-004",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "4",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Ujrai",
+        "alternate_name": "Ujrai",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Ujrai",
+          "Name_1": "Ujrai"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-005",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-005",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "5",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Tora",
+        "alternate_name": "Tora",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Tora",
+          "Name_1": "Tora"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-006",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-006",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "6",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Tapra",
+        "alternate_name": "Tapra",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Tapra",
+          "Name_1": "Tapra"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-007",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-007",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "7",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Sunari",
+        "alternate_name": "Sunari",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Sunari",
+          "Name_1": "Sunari"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-008",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-008",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "8",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Sohalla",
+        "alternate_name": "Sohalla",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Sohalla",
+          "Name_1": "Sohalla"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-009",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-009",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "9",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Sucheta",
+        "alternate_name": "Sucheta",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Sucheta",
+          "Name_1": "Sucheta"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-010",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-010",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "10",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Siroli",
+        "alternate_name": "Siroli",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Siroli",
+          "Name_1": "Siroli"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-011",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-011",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "11",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Shyamo",
+        "alternate_name": "Shyamo",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Shyamo",
+          "Name_1": "Shyamo"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-012",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-012",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "12",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Sewala Jat",
+        "alternate_name": "Sewala Jat",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Sewala Jat",
+          "Name_1": "Sewala Jat"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-013",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-013",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "13",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Sadarban",
+        "alternate_name": "Sadarban",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Sadarban",
+          "Name_1": "Sadarban"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-014",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-014",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "14",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Sahara",
+        "alternate_name": "Sahara",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Sahara",
+          "Name_1": "Sahara"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-015",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-015",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "15",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Sarai Dairupa",
+        "alternate_name": "Sarai Dairupa",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Sarai Dairupa",
+          "Name_1": "Sarai Dairupa"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-016",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-016",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "16",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Saimari",
+        "alternate_name": "Saimari",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Saimari",
+          "Name_1": "Saimari"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-017",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-017",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "17",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Pawawali",
+        "alternate_name": "Pawawali",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Pawawali",
+          "Name_1": "Pawawali"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-018",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-018",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "18",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Rajrai",
+        "alternate_name": "Rajrai",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Rajrai",
+          "Name_1": "Rajrai"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-019",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-019",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "19",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Rampura",
+        "alternate_name": "Rampura",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Rampura",
+          "Name_1": "Rampura"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-020",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-020",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "20",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Rahan Khurd",
+        "alternate_name": "Rahan Khurd",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Rahan Khurd",
+          "Name_1": "Rahan Khurd"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-021",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-021",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "21",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Rohta",
+        "alternate_name": "Rohta",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Rohta",
+          "Name_1": "Rohta"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-022",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-022",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "22",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Malpura",
+        "alternate_name": "Malpura",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Malpura",
+          "Name_1": "Malpura"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-023",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-023",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "23",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Midhakur",
+        "alternate_name": "Midhakur",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Midhakur",
+          "Name_1": "Midhakur"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-024",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-024",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "24",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Mohammadpur",
+        "alternate_name": "Mohammadpur",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Mohammadpur",
+          "Name_1": "Mohammadpur"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-025",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-025",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "25",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Nadau",
+        "alternate_name": "Nadau",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Nadau",
+          "Name_1": "Nadau"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-026",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-026",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "26",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Nagla Nathu",
+        "alternate_name": "Nagla Nathu",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Nagla Nathu",
+          "Name_1": "Nagla Nathu"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-027",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-027",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "27",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Nainana Brahman",
+        "alternate_name": "Nainana Brahman",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Nainana Brahman",
+          "Name_1": "Nainana Brahman"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-028",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-028",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "28",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Nainana Jat",
+        "alternate_name": "Nainana Jat (CT)",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Nainana Jat",
+          "Name_1": "Nainana Jat (CT)"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-029",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-029",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "29",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Nanpur",
+        "alternate_name": "Nanpur",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Nanpur",
+          "Name_1": "Nanpur"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-030",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-030",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "30",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Naripura",
+        "alternate_name": "Naripura",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Naripura",
+          "Name_1": "Naripura"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-031",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-031",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "31",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Nekpur",
+        "alternate_name": "Nekpur",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Nekpur",
+          "Name_1": "Nekpur"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-032",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-032",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "32",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Naubari",
+        "alternate_name": "Naubari",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Naubari",
+          "Name_1": "Naubari"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-033",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-033",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "33",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Pachgain Khera",
+        "alternate_name": "Pachgain Khera",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Pachgain Khera",
+          "Name_1": "Pachgain Khera"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-034",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-034",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "34",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Panwari",
+        "alternate_name": "Panwari",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Panwari",
+          "Name_1": "Panwari"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-035",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-035",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "35",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Patholi",
+        "alternate_name": "Patholi",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Patholi",
+          "Name_1": "Patholi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-036",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-036",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "36",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Patti Pachgain",
+        "alternate_name": "Patti Pachgain",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Patti Pachgain",
+          "Name_1": "Patti Pachgain"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-037",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-037",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "37",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Mahua Khera",
+        "alternate_name": "Mahua Khera",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Mahua Khera",
+          "Name_1": "Mahua Khera"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-038",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-038",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "38",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Mangtai",
+        "alternate_name": "Mangtai",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Mangtai",
+          "Name_1": "Mangtai"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-039",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-039",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "39",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Lohkarera",
+        "alternate_name": "Lohkarera",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Lohkarera",
+          "Name_1": "Lohkarera"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-040",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-040",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "40",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Lakavali",
+        "alternate_name": "Lakavali",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Lakavali",
+          "Name_1": "Lakavali"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-041",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-041",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "41",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Kuthawali",
+        "alternate_name": "Kuthawali",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Kuthawali",
+          "Name_1": "Kuthawali"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-042",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-042",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "42",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Kuan Khera",
+        "alternate_name": "Kuan Khera",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Kuan Khera",
+          "Name_1": "Kuan Khera"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-043",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-043",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "43",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Kaulakha",
+        "alternate_name": "Kaulakha",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Kaulakha",
+          "Name_1": "Kaulakha"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-044",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-044",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "44",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Dhaurra",
+        "alternate_name": "Dhaurra",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Dhaurra",
+          "Name_1": "Dhaurra"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-045",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-045",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "45",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Deori",
+        "alternate_name": "Deori",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Deori",
+          "Name_1": "Deori"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-046",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-046",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "46",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Chak Pancham",
+        "alternate_name": "Chak Pancham",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Chak Pancham",
+          "Name_1": "Chak Pancham"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-047",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-047",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "47",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Chor Nagaria",
+        "alternate_name": "Chor Nagaria",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Chor Nagaria",
+          "Name_1": "Chor Nagaria"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-048",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-048",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "48",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Budhera",
+        "alternate_name": "Budhera",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Budhera",
+          "Name_1": "Budhera"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-049",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-049",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "49",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Brahmnagar",
+        "alternate_name": "Brahmnagar",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Brahmnagar",
+          "Name_1": "Brahmnagar"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-050",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-050",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "50",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Bishari Bhand",
+        "alternate_name": "Bishari Bhand",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Bishari Bhand",
+          "Name_1": "Bishari Bhand"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-051",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-051",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "51",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Islampur",
+        "alternate_name": "Islampur",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Islampur",
+          "Name_1": "Islampur"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-052",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-052",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "52",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Bichpuri",
+        "alternate_name": "Bichpuri",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Bichpuri",
+          "Name_1": "Bichpuri"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-053",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-053",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "53",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Bholai Mohamadpur",
+        "alternate_name": "Bholai Mohamadpur",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Bholai Mohamadpur",
+          "Name_1": "Bholai Mohamadpur"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-054",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-054",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "54",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Bhandai",
+        "alternate_name": "Bhandai",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Bhandai",
+          "Name_1": "Bhandai"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-055",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-055",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "55",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Bhahai",
+        "alternate_name": "Bhahai",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Bhahai",
+          "Name_1": "Bhahai"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-056",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-056",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "56",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Salemabad",
+        "alternate_name": "Salemabad",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Salemabad",
+          "Name_1": "Salemabad"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-057",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-057",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "57",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Bhagupur",
+        "alternate_name": "Bhagupur",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Bhagupur",
+          "Name_1": "Bhagupur"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-058",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-058",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "58",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Bamrauli Ahir",
+        "alternate_name": "Bamrauli Ahir",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Bamrauli Ahir",
+          "Name_1": "Bamrauli Ahir"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-059",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-059",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "59",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Jarua Katra",
+        "alternate_name": "Jarua Katra",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Jarua Katra",
+          "Name_1": "Jarua Katra"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-060",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-060",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "60",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Bamrauli Katara",
+        "alternate_name": "Bamrauli Katara",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Bamrauli Katara",
+          "Name_1": "Bamrauli Katara"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-061",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-061",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "61",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Baheta",
+        "alternate_name": "Baheta",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Baheta",
+          "Name_1": "Baheta"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-062",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-062",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "62",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Bagda",
+        "alternate_name": "Bagda",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Bagda",
+          "Name_1": "Bagda"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-063",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-063",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "63",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Khandbai",
+        "alternate_name": "Khandbai",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Khandbai",
+          "Name_1": "Khandbai"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-064",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-064",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "64",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Atus",
+        "alternate_name": "Atus",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Atus",
+          "Name_1": "Atus"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-065",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-065",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "65",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Jaupura",
+        "alternate_name": "Jaupura",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Jaupura",
+          "Name_1": "Jaupura"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-066",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-066",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "66",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Artauni",
+        "alternate_name": "Artauni",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Artauni",
+          "Name_1": "Artauni"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-067",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-067",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "67",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Runkata",
+        "alternate_name": "Runkata",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Runkata",
+          "Name_1": "Runkata"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-068",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-068",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "68",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Abhaypura",
+        "alternate_name": "Abhaypura",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Abhaypura",
+          "Name_1": "Abhaypura"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-069",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-069",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "69",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Barara",
+        "alternate_name": "Barara",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Barara",
+          "Name_1": "Barara"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-070",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-070",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "70",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Khera Bhagor",
+        "alternate_name": "Khera Bhagor",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Khera Bhagor",
+          "Name_1": "Khera Bhagor"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-071",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-071",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "71",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Bad",
+        "alternate_name": "Bad",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Bad",
+          "Name_1": "Bad"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-072",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-072",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "72",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Kakua",
+        "alternate_name": "Kakua",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Kakua",
+          "Name_1": "Kakua"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-073",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-073",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "73",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Akbarpur",
+        "alternate_name": "Akbarpur",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Akbarpur",
+          "Name_1": "Akbarpur"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-074",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-074",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "74",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Jakhoda",
+        "alternate_name": "Jakhoda",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Jakhoda",
+          "Name_1": "Jakhoda"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-075",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-075",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "75",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Nagla Kali",
+        "alternate_name": "Nagla Kali",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Nagla Kali",
+          "Name_1": "Nagla Kali"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-076",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-076",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "76",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Kahrai",
+        "alternate_name": "Kahrai",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Kahrai",
+          "Name_1": "Kahrai"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-077",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-077",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "77",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Azizpur",
+        "alternate_name": "Azizpur (CT)",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Azizpur",
+          "Name_1": "Azizpur (CT)"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-078",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-078",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "78",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Dhanauli",
+        "alternate_name": "Dhanauli (CT)",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Dhanauli",
+          "Name_1": "Dhanauli (CT)"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-079",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-079",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "79",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Deoretha",
+        "alternate_name": "Deoretha",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Deoretha",
+          "Name_1": "Deoretha"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-080",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-080",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "80",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Chauhatna",
+        "alternate_name": "Chauhatna",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Chauhatna",
+          "Name_1": "Chauhatna"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-081",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-081",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "81",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Anguthi",
+        "alternate_name": "Anguthi",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Anguthi",
+          "Name_1": "Anguthi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-082",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-082",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "82",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Dehtora",
+        "alternate_name": "Dehtora",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Dehtora",
+          "Name_1": "Dehtora"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-083",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-083",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "83",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Chamrauli",
+        "alternate_name": "Chamrauli",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Chamrauli",
+          "Name_1": "Chamrauli"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-084",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-084",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "84",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Lodhai",
+        "alternate_name": "Lodhai",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Lodhai",
+          "Name_1": "Lodhai"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-085",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-085",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "85",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Barauli Ahir",
+        "alternate_name": "Barauli Ahir",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Barauli Ahir",
+          "Name_1": "Barauli Ahir"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-086",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-086",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "86",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Basai Naupura",
+        "alternate_name": "Basai Naupura",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Basai Naupura",
+          "Name_1": "Basai Naupura"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-087",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-087",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "87",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Bajhera",
+        "alternate_name": "Bajhera",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Bajhera",
+          "Name_1": "Bajhera"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-088",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-088",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "88",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Bain Khera",
+        "alternate_name": "Bain Khera",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Bain Khera",
+          "Name_1": "Bain Khera"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-089",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-089",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "89",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Kalal Kheria",
+        "alternate_name": "Kalal Kheria",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Kalal Kheria",
+          "Name_1": "Kalal Kheria"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-090",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-090",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "90",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Dhadhupura",
+        "alternate_name": "Dhadhupura",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Dhadhupura",
+          "Name_1": "Dhadhupura"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-091",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-091",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "91",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Itaura",
+        "alternate_name": "Itaura",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Itaura",
+          "Name_1": "Itaura"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-092",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-092",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "92",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Mundhera",
+        "alternate_name": "Mundhera",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Mundhera",
+          "Name_1": "Mundhera"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-093",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-093",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "93",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Mayapur",
+        "alternate_name": "Mayapur",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Mayapur",
+          "Name_1": "Mayapur"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-094",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-094",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "94",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Laramada",
+        "alternate_name": "Laramada",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Laramada",
+          "Name_1": "Laramada"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-095",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-095",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "95",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Rahan Kalan",
+        "alternate_name": "Rahan Kalan",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Rahan Kalan",
+          "Name_1": "Rahan Kalan"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-096",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-096",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "96",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Raipur",
+        "alternate_name": "Raipur",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Raipur",
+          "Name_1": "Raipur"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-097",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-097",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "97",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Etmadpur Madra",
+        "alternate_name": "Etmadpur Madra",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Etmadpur Madra",
+          "Name_1": "Etmadpur Madra"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-098",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-098",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "98",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Budhana Mustkil",
+        "alternate_name": "Budhana Mustkil",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Budhana Mustkil",
+          "Name_1": "Budhana Mustkil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-099",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-099",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "99",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Karmana Mustkil",
+        "alternate_name": "Karmana Mustkil",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Karmana Mustkil",
+          "Name_1": "Karmana Mustkil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-100",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-100",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "100",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Hingot Kheria",
+        "alternate_name": "Hingot Kheria",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Hingot Kheria",
+          "Name_1": "Hingot Kheria"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-101",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-101",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "101",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Ikthara",
+        "alternate_name": "Ikthara",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Ikthara",
+          "Name_1": "Ikthara"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-102",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-102",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "102",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Mangraul Gujar",
+        "alternate_name": "Mangraul Gujar",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Mangraul Gujar",
+          "Name_1": "Mangraul Gujar"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-103",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-103",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "103",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Akabara",
+        "alternate_name": "Akabara",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Akabara",
+          "Name_1": "Akabara"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-104",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-104",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "104",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Malupur",
+        "alternate_name": "Malupur",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Malupur",
+          "Name_1": "Malupur"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-105",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-105",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "105",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Hazipur Khera",
+        "alternate_name": "Hazipur Khera",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Hazipur Khera",
+          "Name_1": "Hazipur Khera"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-106",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-106",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "106",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Madan Pur Mustkil",
+        "alternate_name": "Madan Pur Mustkil",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Madan Pur Mustkil",
+          "Name_1": "Madan Pur Mustkil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-107",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-107",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "107",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Madan Pur Ehtmali",
+        "alternate_name": "Madan Pur Ehtmali",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Madan Pur Ehtmali",
+          "Name_1": "Madan Pur Ehtmali"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-108",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-108",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "108",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Swami Ehtmali",
+        "alternate_name": "Swami Ehtmali",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Swami Ehtmali",
+          "Name_1": "Swami Ehtmali"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-109",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-109",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "109",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Swami Mustkil",
+        "alternate_name": "Swami Mustkil",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Swami Mustkil",
+          "Name_1": "Swami Mustkil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-110",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-110",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "110",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Baipur Mustkil",
+        "alternate_name": null,
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Baipur Mustkil",
+          "Name_1": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-111",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-111",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "111",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Dhangrauli Ehtmali",
+        "alternate_name": "Dhangrauli Ehtmali",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Dhangrauli Ehtmali",
+          "Name_1": "Dhangrauli Ehtmali"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-112",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-112",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "112",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Dhangrauli Mustkil",
+        "alternate_name": "Dhangrauli Mustkil",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Dhangrauli Mustkil",
+          "Name_1": "Dhangrauli Mustkil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-113",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-113",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "113",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Nauphari",
+        "alternate_name": "Nauphari",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Nauphari",
+          "Name_1": "Nauphari"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-114",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-114",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "114",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Gutla",
+        "alternate_name": "Gutla",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Gutla",
+          "Name_1": "Gutla"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-115",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-115",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "115",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Gangraua",
+        "alternate_name": "Gangraua",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Gangraua",
+          "Name_1": "Gangraua"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-116",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-116",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "116",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Balhera",
+        "alternate_name": "Balhera",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Balhera",
+          "Name_1": "Balhera"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-117",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-117",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "117",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Basua Nagla",
+        "alternate_name": "Basua Nagla",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Basua Nagla",
+          "Name_1": "Basua Nagla"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-118",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-118",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "118",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Poiya",
+        "alternate_name": "Poiya",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Poiya",
+          "Name_1": "Poiya"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-119",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-119",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "119",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Gijauli Mustkil",
+        "alternate_name": "Gijauli Mustkil",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Gijauli Mustkil",
+          "Name_1": "Gijauli Mustkil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-120",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-120",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "120",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Lakhanpur",
+        "alternate_name": "Lakhanpur",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Lakhanpur",
+          "Name_1": "Lakhanpur"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-121",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-121",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "121",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Babarpur Ehtmali",
+        "alternate_name": "Babarpur Ehtmali",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Babarpur Ehtmali",
+          "Name_1": "Babarpur Ehtmali"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-122",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-122",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "122",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Kuberpur",
+        "alternate_name": "Kuberpur",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Kuberpur",
+          "Name_1": "Kuberpur"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-123",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-123",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "123",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Jaganpur Mustkil",
+        "alternate_name": "Jaganpur Mustkil",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Jaganpur Mustkil",
+          "Name_1": "Jaganpur Mustkil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-124",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-124",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "124",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Sikandarpur Mustkil",
+        "alternate_name": "Sikandarpur Mustkil",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Sikandarpur Mustkil",
+          "Name_1": "Sikandarpur Mustkil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-125",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-125",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "125",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Narayach Mustkil",
+        "alternate_name": "Narayach Mustkil",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Narayach Mustkil",
+          "Name_1": "Narayach Mustkil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-126",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-126",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "126",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Kakretha Mustkil",
+        "alternate_name": "Kakretha Mustkil",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Kakretha Mustkil",
+          "Name_1": "Kakretha Mustkil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-127",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-127",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "127",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Gijauli Ehtmali",
+        "alternate_name": "Gijauli Ehtmali",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Gijauli Ehtmali",
+          "Name_1": "Gijauli Ehtmali"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-128",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-128",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "128",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Kakrautha Ehtmali",
+        "alternate_name": "Kakrautha Ehtmali",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Kakrautha Ehtmali",
+          "Name_1": "Kakrautha Ehtmali"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-129",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-129",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "129",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Sikandra Bahistabad",
+        "alternate_name": "Sikandra Bahistabad",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Sikandra Bahistabad",
+          "Name_1": "Sikandra Bahistabad"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-130",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-130",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "130",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Bodla",
+        "alternate_name": "Bodla",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Bodla",
+          "Name_1": "Bodla"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-131",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-131",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "131",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Khaspur Mustkil",
+        "alternate_name": "Khaspur Mustkil",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Khaspur Mustkil",
+          "Name_1": "Khaspur Mustkil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-132",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-132",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "132",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Khaspur Ahetmali",
+        "alternate_name": "Khaspur Ahetmali",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Khaspur Ahetmali",
+          "Name_1": "Khaspur Ahetmali"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-133",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-133",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "133",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Kalwari",
+        "alternate_name": "Kalwari",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Kalwari",
+          "Name_1": "Kalwari"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-134",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-134",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "134",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Rajpur",
+        "alternate_name": "Rajpur",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Rajpur",
+          "Name_1": "Rajpur"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-135",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-135",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "135",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Ukharra",
+        "alternate_name": "Ukharra",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Ukharra",
+          "Name_1": "Ukharra"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-136",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-136",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "136",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Bhogipura",
+        "alternate_name": "Bhogipura",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Bhogipura",
+          "Name_1": "Bhogipura"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-137",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-137",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "137",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Kachhipura",
+        "alternate_name": "Kachhipura",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Kachhipura",
+          "Name_1": "Kachhipura"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-138",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-138",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "138",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Gailana Mustkil",
+        "alternate_name": "Gailana Mustkil",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Gailana Mustkil",
+          "Name_1": "Gailana Mustkil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-139",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-139",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "139",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Sarejpur",
+        "alternate_name": "Sarejpur",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Sarejpur",
+          "Name_1": "Sarejpur"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-140",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-140",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "140",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Mau Mustkil",
+        "alternate_name": "Mau Mustkil",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Mau Mustkil",
+          "Name_1": "Mau Mustkil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-141",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-141",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "141",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Nagla Padi",
+        "alternate_name": "Nagla Padi",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Nagla Padi",
+          "Name_1": "Nagla Padi"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-142",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-142",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "142",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Baipur Ehatmali",
+        "alternate_name": null,
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Baipur Ehatmali",
+          "Name_1": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-143",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-143",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "143",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Babarpur Mustkil",
+        "alternate_name": "Babarpur Mustkil",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Babarpur Mustkil",
+          "Name_1": "Babarpur Mustkil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-144",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-144",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "144",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Nagla Al Batia",
+        "alternate_name": "Nagla Al Batia",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Nagla Al Batia",
+          "Name_1": "Nagla Al Batia"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-145",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-145",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "145",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Chak Haftam",
+        "alternate_name": "Chak Haftam",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Chak Haftam",
+          "Name_1": "Chak Haftam"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-146",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-146",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "146",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Chak Soyam",
+        "alternate_name": "Chak Soyam",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Chak Soyam",
+          "Name_1": "Chak Soyam"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-147",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-147",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "147",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": null,
+        "alternate_name": null,
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "",
+          "Name_1": ""
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-148",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-148",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "148",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Basai Mustkil",
+        "alternate_name": "Basai Mustkil",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Basai Mustkil",
+          "Name_1": "Basai Mustkil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-149",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-149",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "149",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Nagla Basai Bahadur",
+        "alternate_name": "Nagla Basai Bahadur",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Nagla Basai Bahadur",
+          "Name_1": "Nagla Basai Bahadur"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-150",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-150",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "150",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Janra",
+        "alternate_name": "Janra",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Janra",
+          "Name_1": "Janra"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-151",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-151",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "151",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Karmana Mustkil",
+        "alternate_name": "Karmana Mustkil",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Karmana Mustkil",
+          "Name_1": "Karmana Mustkil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-152",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-152",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "152",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Budhana Ehatmali",
+        "alternate_name": "Budhana Ehatmali",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Budhana Ehatmali",
+          "Name_1": "Budhana Ehatmali"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-153",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-153",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "153",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Ghatwasan Ehtmali",
+        "alternate_name": "Ghatwasan Ehtmali",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Ghatwasan Ehtmali",
+          "Name_1": "Ghatwasan Ehtmali"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-154",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-154",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "154",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Ghatwasan Mustkil",
+        "alternate_name": "Ghatwasan Mustkil",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Ghatwasan Mustkil",
+          "Name_1": "Ghatwasan Mustkil"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-155",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-155",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "155",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Jaganpur Ehtmali",
+        "alternate_name": "Jaganpur Ehtmali",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Jaganpur Ehtmali",
+          "Name_1": "Jaganpur Ehtmali"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-156",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-156",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "156",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Sikandarpur Ehtmali",
+        "alternate_name": "Sikandarpur Ehtmali",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Sikandarpur Ehtmali",
+          "Name_1": "Sikandarpur Ehtmali"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-157",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-157",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "157",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Mau Ehtmali",
+        "alternate_name": "Mau Ehtmali",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Mau Ehtmali",
+          "Name_1": "Mau Ehtmali"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-158",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-158",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "158",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Gailana Ehtmali",
+        "alternate_name": "Gailana Ehtmali",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Gailana Ehtmali",
+          "Name_1": "Gailana Ehtmali"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-159",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-159",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "159",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Narayach Ehtmali",
+        "alternate_name": "Narayach Ehtmali",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Narayach Ehtmali",
+          "Name_1": "Narayach Ehtmali"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GEO-AGRA-VILLAGE-160",
+      "geometry": null,
+      "properties": {
+        "id": "GEO-AGRA-VILLAGE-160",
+        "city_id": "CITY-AGRA",
+        "record_type": "VERIFIED",
+        "source_id": "SRC-AGRA-MASTERPLAN-2031",
+        "source_file": "masterplan-villages.tsv",
+        "source_layer": "Villages",
+        "source_feature_id": "160",
+        "source_geometry_type": "Polygon",
+        "observation_date": "2026-11-24",
+        "feature_role": "village_boundary",
+        "name": "Chalesar",
+        "alternate_name": "Chalesar",
+        "crs": "WGS_1984_UTM_Zone_44N",
+        "is_official_boundary": true,
+        "raw_attributes": {
+          "NAME": "Chalesar",
+          "Name_1": "Chalesar"
+        }
+      }
+    }
+  ]
+}
