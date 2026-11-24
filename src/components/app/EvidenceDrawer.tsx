@@ -5,6 +5,7 @@ import {
   useEffect,
   useMemo,
   useState,
+  type Context,
   type ReactNode,
 } from "react";
 import { X } from "lucide-react";
@@ -42,7 +43,12 @@ interface Ctx {
   open: (request: EvidenceRequest) => void;
 }
 
-const EvidenceCtx = createContext<Ctx>({ open: () => {} });
+// Preserve a single Context instance across HMR / chunk reloads.
+const evidenceContextGlobal = globalThis as {
+  __mohuaEvidenceContext?: Context<Ctx>;
+};
+const EvidenceCtx = (evidenceContextGlobal.__mohuaEvidenceContext ??=
+  createContext<Ctx>({ open: () => {} }));
 
 export function useEvidenceDrawer() {
   return useContext(EvidenceCtx);

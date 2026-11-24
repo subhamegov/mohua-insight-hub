@@ -7,7 +7,7 @@
 // supplied locality anchors for the active city.
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
-import type { ReactNode } from "react";
+import type { Context, ReactNode } from "react";
 import { useCity } from "@/lib/cityContext";
 import { fourCityBundle } from "@/data/four-city/dataset";
 import type { Locality } from "@/data/four-city/types";
@@ -22,7 +22,12 @@ interface GeoContextValue {
   setLocalityId: (id: string | null) => void;
 }
 
-const GeoContext = createContext<GeoContextValue | null>(null);
+// Preserve a single Context instance across HMR / chunk reloads.
+const geoContextGlobal = globalThis as {
+  __mohuaGeoContext?: Context<GeoContextValue | null>;
+};
+const GeoContext = (geoContextGlobal.__mohuaGeoContext ??=
+  createContext<GeoContextValue | null>(null));
 
 export function GeoProvider({ children }: { children: ReactNode }) {
   const { cityId } = useCity();

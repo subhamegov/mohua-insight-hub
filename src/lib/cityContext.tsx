@@ -8,7 +8,7 @@
 // city state.
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
-import type { ReactNode } from "react";
+import type { Context, ReactNode } from "react";
 import { useNavigate, useRouterState } from "@tanstack/react-router";
 import { CITIES, DEFAULT_CITY_ID, isCityId, type CityId, type CityProfile } from "@/data/cities/registry";
 import { datasetFor, type CityDataset } from "@/data/cities/datasets";
@@ -52,7 +52,14 @@ interface CityContextValue {
   setScope: (scope: Scope, to?: string) => void;
 }
 
-const CityContext = createContext<CityContextValue | null>(null);
+// Preserve a single Context instance across HMR / chunk reloads so consumers
+// like GeoProvider never read a fresh Context object while CityProvider holds
+// the previous one.
+const cityContextGlobal = globalThis as {
+  __mohuaCityContext?: Context<CityContextValue | null>;
+};
+const CityContext = (cityContextGlobal.__mohuaCityContext ??=
+  createContext<CityContextValue | null>(null));
 
 export function CityProvider({ children }: { children: ReactNode }) {
   const navigate = useNavigate();
