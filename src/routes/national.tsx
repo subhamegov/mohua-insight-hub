@@ -6,6 +6,7 @@ import type { MapPoint } from "@/components/map/PointMap";
 import { CITIES } from "@/data/cities/registry";
 import { datasetFor } from "@/data/cities/datasets";
 import { fourCityBundle } from "@/data/four-city/dataset";
+import { agraGeographySummary } from "@/data/agra/referenceGeography";
 import { useCity } from "@/lib/cityContext";
 import { useGeo } from "@/lib/geoContext";
 import { count, crore } from "@/lib/format";
@@ -46,10 +47,12 @@ function NationalView() {
         const dataset = datasetFor(profile.city_id);
         const bundle = fourCityBundle(profile.city_id);
         const sanctioned = dataset.projects.reduce((s, p) => s + (p.sanctioned_cost_cr ?? 0), 0);
+        const agraGeo = profile.city_id === "CITY-AGRA" ? agraGeographySummary() : null;
         return {
           profile,
           dataset,
           localities: bundle?.localities.length ?? 0,
+          agraGeoCount: agraGeo?.total ?? 0,
           assets: dataset.assets.length,
           projects: dataset.projects.length,
           sanctioned,
@@ -61,7 +64,9 @@ function NationalView() {
   const points: MapPoint[] = cards.map((c) => ({
     id: c.profile.city_id,
     name: c.profile.name,
-    sub: `${c.profile.state} · ${count(c.projects)} project records`,
+    sub: c.profile.data_loaded
+      ? `${c.profile.state} · ${count(c.projects)} project records`
+      : `${c.profile.state} · Record tables not yet loaded`,
     lat: c.profile.centre[0],
     lon: c.profile.centre[1],
     verified: c.profile.data_loaded && !c.dataset.synthetic,
@@ -121,9 +126,24 @@ function NationalView() {
             <p className="text-xs text-muted-foreground">{c.profile.urban_local_body}</p>
 
             <dl className="mt-3 grid grid-cols-2 gap-2 text-sm">
-              <Stat label="Project records" value={count(c.projects)} />
-              <Stat label="Asset records" value={count(c.assets)} />
-              <Stat label="Localities" value={c.localities ? count(c.localities) : "Not available"} />
+              <Stat
+                label="Project records"
+                value={c.profile.data_loaded ? count(c.projects) : "Not available"}
+              />
+              <Stat
+                label="Asset records"
+                value={c.profile.data_loaded ? count(c.assets) : "Not available"}
+              />
+              <Stat
+                label={c.agraGeoCount > 0 ? "Reference geography" : "Localities"}
+                value={
+                  c.localities
+                    ? count(c.localities)
+                    : c.agraGeoCount > 0
+                      ? `${count(c.agraGeoCount)} (geometry pending)`
+                      : "Not available"
+                }
+              />
               <Stat
                 label="Sanctioned in records"
                 value={c.sanctioned > 0 ? crore(c.sanctioned) : "Not available"}
@@ -132,7 +152,7 @@ function NationalView() {
 
             <p className="mt-3 text-xs text-muted-foreground">
               {!c.profile.data_loaded
-                ? "Registered city. Records not yet loaded."
+                ? "Registered city. Record tables not yet loaded."
                 : c.dataset.synthetic
                   ? "Synthetic prototype records. Not government statistics, not citywide totals."
                   : "Government-sourced records compiled for this city."}
@@ -146,7 +166,7 @@ function NationalView() {
               >
                 Open {c.profile.name}
               </button>
-              {c.localities > 0 ? (
+              {c.localities > 0 || c.agraGeoCount > 0 ? (
                 <button
                   type="button"
                   onClick={() => {
@@ -155,7 +175,7 @@ function NationalView() {
                   }}
                   className="rounded-sm border border-border px-3 py-1.5 text-xs font-medium text-foreground"
                 >
-                  Localities
+                  {c.agraGeoCount > 0 ? "Reference geography" : "Localities"}
                 </button>
               ) : null}
             </div>

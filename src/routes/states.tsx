@@ -65,7 +65,10 @@ function StatesView() {
                     <div className="min-w-0">
                       <p className="truncate text-sm font-medium text-foreground">{c.name}</p>
                       <p className="truncate text-xs text-muted-foreground">
-                        {c.city_id} · {count(dataset.projects.length)} project records
+                        {c.city_id} ·{" "}
+                        {c.data_loaded
+                          ? `${count(dataset.projects.length)} project records`
+                          : "Record tables not yet loaded"}
                       </p>
                     </div>
                     <button
