@@ -64,7 +64,7 @@ function NationalView() {
     sub: `${c.profile.state} · ${count(c.projects)} project records`,
     lat: c.profile.centre[0],
     lon: c.profile.centre[1],
-    verified: !c.dataset.synthetic,
+    verified: c.profile.data_loaded && !c.dataset.synthetic,
   }));
 
   const open = (id: (typeof CITIES)[number]["city_id"]) => {
@@ -131,9 +131,11 @@ function NationalView() {
             </dl>
 
             <p className="mt-3 text-xs text-muted-foreground">
-              {c.dataset.synthetic
-                ? "Synthetic prototype records. Not government statistics, not citywide totals."
-                : "Government-sourced records compiled for this city."}
+              {!c.profile.data_loaded
+                ? "Registered city. Records not yet loaded."
+                : c.dataset.synthetic
+                  ? "Synthetic prototype records. Not government statistics, not citywide totals."
+                  : "Government-sourced records compiled for this city."}
             </p>
 
             <div className="mt-3 flex flex-wrap gap-2">

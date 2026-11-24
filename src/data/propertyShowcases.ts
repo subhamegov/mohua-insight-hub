@@ -9,7 +9,7 @@ export interface PropertyShowcase {
   syntheticProperty: boolean;
 }
 
-export const PROPERTY_SHOWCASES: Record<CityId, PropertyShowcase> = {
+export const PROPERTY_SHOWCASES: Partial<Record<CityId, PropertyShowcase>> = {
   "CITY-SURAT": {
     cityId: "CITY-SURAT",
     propertyId: "PROP-SURAT-0110",
@@ -60,6 +60,6 @@ export const PROPERTY_SHOWCASES: Record<CityId, PropertyShowcase> = {
   },
 };
 
-export function propertyShowcase(cityId: CityId): PropertyShowcase {
-  return PROPERTY_SHOWCASES[cityId];
+export function propertyShowcase(cityId: CityId): PropertyShowcase | null {
+  return PROPERTY_SHOWCASES[cityId] ?? null;
 }

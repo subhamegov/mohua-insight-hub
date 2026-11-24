@@ -226,6 +226,28 @@ export const CITY_AUTHORITIES: Record<CityId, AuthorityAsset> = {
     fallbackIcon: "building",
     fallbackLabel: "MC Karnal",
   },
+  "CITY-AGRA": {
+    id: "ulb-agra",
+    authorityType: "municipal-corporation",
+    cityId: "CITY-AGRA",
+    name: "Agra Municipal Corporation",
+    administrativeLevel: "city",
+    authority: "Urban local body",
+    geography: "Agra",
+    logoSource: "unverified",
+    sourceUrl: null,
+    assetPath: null,
+    variant: null,
+    usageStatus: "do-not-use",
+    lastVerified: null,
+    officialWebsite: "",
+    logoSourcePage: null,
+    stateId: "STATE-UTTAR-PRADESH",
+    districtId: "DISTRICT-AGRA",
+    usageNote: "A current, reusable official mark has not been verified.",
+    fallbackIcon: "building",
+    fallbackLabel: "Agra MC",
+  },
 };
 
 /**
@@ -243,6 +265,7 @@ export const DISTRICT_AUTHORITIES: Record<CityId, AuthorityAsset> = {
     "Kamrup Metropolitan District Administration",
   ),
   "CITY-KARNAL": district("karnal", "Karnal", "District Administration Karnal"),
+  "CITY-AGRA": district("agra", "Agra", "District Administration"),
 };
 
 function district(id: string, geography: string, name: string): AuthorityAsset {

@@ -54,6 +54,11 @@ const DATASETS: Record<CityId, CityDataset> = {
   "CITY-AHMEDABAD": fourCity("CITY-AHMEDABAD"),
   "CITY-GUWAHATI": fourCity("CITY-GUWAHATI"),
   "CITY-KARNAL": fourCity("CITY-KARNAL"),
+  "CITY-AGRA": {
+    profile: cityProfile("CITY-AGRA"),
+    ...EMPTY,
+    synthetic: false,
+  },
 };
 
 export function datasetFor(id: CityId): CityDataset {

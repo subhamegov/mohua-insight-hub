@@ -8,3 +8,7 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+## Data identity rules
+
+- Identify local bodies by Local Government Directory (`lgd_code`), never by ULB name: source government extracts disagree on state for 64 LGD codes and produce zero exact matches when joining ULB lists by name alone.

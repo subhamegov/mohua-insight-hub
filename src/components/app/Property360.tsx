@@ -231,7 +231,7 @@ function PropertyOverview({ view, city, selectedMission, mapLayer, onMissionChan
   return (
     <section id="overview" className="scroll-mt-4 space-y-4" aria-labelledby="overview-title">
       <SectionTitle id="overview-title" number="01" title="Overview" note="Catalogue entry with linked civic evidence" />
-      {showcase.propertyId === p.property_aggregate_id ? (
+      {showcase && showcase.propertyId === p.property_aggregate_id ? (
         <Panel title="Demonstration journey">
           <p className="text-sm font-medium text-foreground">{showcase.title}</p>
           <p className="mt-1 text-sm text-muted-foreground">{showcase.storyline}</p>

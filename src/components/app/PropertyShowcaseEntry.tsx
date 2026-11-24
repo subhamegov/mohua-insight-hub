@@ -5,6 +5,7 @@ import type { CityProfile } from "@/data/cities/registry";
 
 export function PropertyShowcaseEntry({ city }: { city: CityProfile }) {
   const showcase = propertyShowcase(city.city_id);
+  if (!showcase) return null;
   return (
     <section className="border-y border-border bg-card px-4 py-4" aria-labelledby="property-showcase-title">
       <div className="flex min-w-0 flex-wrap items-center justify-between gap-4">
